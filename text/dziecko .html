@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8"/>
+   <title>text</title>
+   <style>
+	td {
+			border: 1px solid Gray; text-align: right; padding: 5px;
+		   }
+	table {
+			border-collapse: collapse;
+			font-family: Calibri;
+			font-size: 16px;
+			width: 100%;
+			}
+		</style>	
+ </head>
+<body>
+<form action="po.html" style="background-color:">
+	
+	<table>
+	<tr>
+		<td><label for="fname">Imie :</label></td>
+		<td><input id="fname" > </td>
+		<td><label for="sname">Nazwisko :</label></td>
+		<td><input id="sname" > </td>
+		<td><label for="mname">Miejscowość urodzenia :</label></td>
+		<td><<select id="woj"  name="wojs">
+		<option value="voj1" >Województwo jeden</option>
+		<option value="woj2">Wojewodztow dwa</option> </td>
+	</tr>
+	<tr>
+		<td><label for="secname">Drugie Imie :</label></td>
+		<td><input id="secname" > </td>
+		<td><label for="data">Data urodzenia :</label></td>
+		<td><input id="data" type="date" > </td>
+		<td><label for="woj">Wojeództwo :</label></td>
+		<td><input id="woj" > </td>
+	</tr>
+	<tr>
+	<td colspan="6"><center><input type="submit" value="Wyślij" ></center>	</td>
+	</tr>
+	</table>
+	
+		</form>
+		</body>
+		</html>
